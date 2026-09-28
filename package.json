@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/boostlane",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Boost digests and lane fingerprints for local integrity checks.",
+  "bin": {
+    "boostlane": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/boostlane.git"
+  },
+  "homepage": "https://theworker02.github.io/boostlane/",
+  "keywords": [
+    "boost",
+    "lane",
+    "hash",
+    "cli",
+    "toolkit"
+  ]
+}
